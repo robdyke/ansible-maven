@@ -20,7 +20,7 @@ Default: 1
 ## maven_mirror
 
 Configure the mirror to download Maven.
-Default: http://ftp.fau.de/apache/maven
+Default: http://mirror.ox.ac.uk/sites/rsync.apache.org/maven
 
 ## maven_redis_shad256sum
 
@@ -46,7 +46,8 @@ Apache Version 2.0
 
 # Author
 
-Mark Kusch @mark.kusch silpion.de
+Revised by Rob Dyke @robdykedotcom opengpsoc.org
+Forked / Cloned from original work by Mark Kusch @mark.kusch silpion.de
 
 
 <!-- vim: set ts=4 sw=4 et nofen: -->
