@@ -9,14 +9,14 @@
       - ansible_os_family in ['Archlinux', 'Debian', 'RedHat', 'Suse']
 
 
-#- name: Install Maven download directory (local)
-#  tags: maven
-#  local_action: file
-#    state=directory
-#    owner=0
-#    group=0
-#    mode=0755
-#    dest={{ ansible_data_path }}
+- name: Install Maven download directory (remote)
+  tags: maven
+  file:
+    state=directory
+    owner=0
+    group=0
+    mode=0755
+    dest={{ ansible_data_path }}
 
 
 - name: Download Maven (remote)
