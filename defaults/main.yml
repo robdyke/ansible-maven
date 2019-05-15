@@ -4,7 +4,7 @@ maven_version_major: '3'
 # Maven minor version number
 maven_version_minor: '2'
 # Maven patch version number
-maven_version_patch: '1'
+maven_version_patch: '5'
 
 # Mirror where to dowload Maven redistributable package from
 maven_mirror: "http://mirror.ox.ac.uk/sites/rsync.apache.org/maven"
