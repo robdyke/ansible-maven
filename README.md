@@ -11,7 +11,7 @@ Install Maven in latest version from upstream.
   - Default: 2
 
 - maven_version_patch
-  - Default: 1
+  - Default: 5
 
 - maven_mirror
   - Configure the mirror to download Maven.
